@@ -1,0 +1,52 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Untitled Document</title>
+
+</head>
+
+<body>
+<font size="+6" color="#330099"><p align="center"><b>โปรแกรมคำนวณหาค่าดัชนีมวลกาย (BMI)</b></font>
+<hr  width="890" size="4" color="#FF0000"/></p>
+<table border="1" align="center" width="890">
+<tr>
+<td width="320" height="60"><b>น้ำหนัก :</b>
+</td>
+<td><input type="text" style= "width:95%;height:60px;" id="weight"/><br><b>กิโลกรัม</b>
+</td>
+</tr>
+<tr>
+<td width="320" height="60"><b>ส่วนสูง :</b>
+</td>
+<td><input type="text" style= "width:95%;height:60px;" id="height"/><br><b>เซนติเมตร</b>
+</td>
+</tr>
+<tr>
+<td width="320" height="60"><b>ค่าที่ได้ :</b>
+</td>
+<td><input type="text" style= "width:95%;height:60px;"id="bmi_result" readonly="readonly"/>
+</td>
+</tr>
+<tr>
+<td width="320" height="60">
+</td>
+<td><input type="button" style="width:95%; height:60px; background:#000066; color:#FFFFFF" value="คำนวณ"onclick="calculateBMI()" />
+</td>
+</tr>
+<tr>
+<td width="320" height="60"><b>คุณอยู่ในเกณฑ์ :  :</b>
+</td>
+<td><input type="text" style= "width:95%;height:60px;" id="bmi_status" readonly="readonly"/>
+</td>
+</tr>
+<tr>
+<td width="320" height="60">
+</td>
+<td><input type="button" value="เครียร์ข้อมูล" style="width:95%; height:60px; background:#000066; color:#FFFFFF" onclick= "clearData()"/>
+</td>
+</tr>
+</table>
+<script src="jajv2.js"></script>
+</body>
+</html>
